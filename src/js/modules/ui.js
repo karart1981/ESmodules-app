@@ -13,13 +13,13 @@ export default {
 
 	elementOptions() {
 		this.title.textContent = "CRUD";
-		this.subTitle.textContent = "Asyn Application";
+		this.subTitle.textContent = "Async Application";
 
 		this.form.id = "app-form";
 		this.screenBlock.id = "screenBlock";
 		this.screenInput.type = "text";
 		this.screenInput.placeholder = "Type here...";
-		this.screenAddBtn.classList.add("fa", "fa-plus-circle")
+		this.screenAddBtn.classList.add("fa", "fa-plus-circle");
 		this.screenAddBtn.id = "screenAddBtn";
 		this.listsBlock.id = "listBlock";
 
@@ -61,4 +61,4 @@ export default {
 		this.elementOptions();
 		this.appendElements();
 	}
-}
+};
